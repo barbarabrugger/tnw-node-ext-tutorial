@@ -1,0 +1,13 @@
+# curl -X POST -d '{"user": "jane.doe" }' -H "Content-Type: application/json" http://localhost:3000/articles
+
+###
+
+POST http://localhost:3000/articles HTTP/1.1
+content-type: application/json
+
+{
+    "user": "jane.doe"
+}
+
+###
+GET http://localhost:3000/hello
